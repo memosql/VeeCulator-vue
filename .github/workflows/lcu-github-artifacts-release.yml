@@ -2,16 +2,16 @@ name: memosql/VeeCulator-vue
 
 on:
   push:
-    branches: [main]
+    branches: [update-UI]
   pull_request:
-    branches: [main]
+    branches: [update-UI]
 
 permissions: write-all
 
 env:
   CI: false
-  Branches: main
-  MainBranch: main
+  Branches: update-UI
+  MainBranch: update-UI
   NPMRegistry: https://registry.npmjs.org/
   InstallCommand: npm i
   BuildCommand: npm run build
